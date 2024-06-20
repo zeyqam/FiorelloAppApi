@@ -1,8 +1,8 @@
 ﻿namespace FiorelloAppApi.DTOs
 {
-    public class SliderDto
+    public class SliderEditDto
     {
-        public int Id { get; set; }
         public string Image { get; set; }
+        public IFormFile NewImage { get; set; }
     }
 }
